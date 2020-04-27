@@ -41,7 +41,7 @@
       <div class="navbar-brand">
         <!-- TODO: Change link to repository homepage if needed -->
         <!-- TODO: Change which navbar-item is-active if needed -->
-        <a class="navbar-item is-active" href="index.html">
+        <a class="navbar-item" href="index.html">
           <span class="icon"><i class="fas fa-home"></i></span>
           <span>Home</span>
         </a>
@@ -93,7 +93,7 @@
             <span class="icon"><i class="fas fa-image"></i></span>
             <span>Alpha Prototype</span>
           </a>
-          <a class="navbar-item" href="proto2.html" title="proto">
+          <a class="navbar-item is-active" href="proto2.html" title="proto">
             <span class="icon"><i class="fas fa-image"></i></span>
             <span>Beta Prototype</span>
           </a>
@@ -118,22 +118,24 @@
       <div class="content">
         <h1 class="title">
           <!-- TODO: Change page title -->
-          Something Awesome
+          Beta Prototype
         </h1>
-        <p class="subtitle">
-          <!-- TODO: Change page subtitle -->
-          A Wasteful Visualizations
-        </p>
-
-        <p>Here is my final project in which I visualized DataSF 311 dataset.</p>
-        <p>I got the inspriation for this project because I live in SF where defecation on the streets is a problem.</p>
-        <p> My goal with this visualization is to show the manginute of the problem.</p>
-        <p> I hope to see if there are any underlying themes that will be exposed with differnt styles of visualizations.</p>
-
-        <h2>Theme</h2>
-        <p>While I was creating my prototypes, I noticed that some districts seem to have an expontentially larger amount of cases compared to other parts of the city. As part of this project, I would like to see if some districts are being overworked.</p>
+        <img src="proto2.png" width="960px">
+        <p>Here is a prototype that I created in Tableu. It is what I based my d3 implementation off of.</p>
         <!-- End profile box -->
+        <h2>Question</h2>
+        <p>Is there a particular month of the year that there is increase number of 311 calls?</p>
 
+        <h2>Answer</h2>
+        <p>October seems to be the month with the highest number of calls.</p>
+
+        <h2>Encoding</h2>
+        <p>I decided that a heat map would be the best to compare numbers between a place and time.<br>
+        The heat map allows us to easily see trends.<br>
+        I picked a brown color scale because I thought it was fitting with my theme.</p>
+
+        <h2>Planned Interactivity</h2>
+        <p>I plan of doing a box highlight and a tooltip. This would only be used on mouse hightlight.</p>
       </div>
       <!-- End page content -->
     </div>
