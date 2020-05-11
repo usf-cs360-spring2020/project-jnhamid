@@ -144,9 +144,26 @@
           </figcaption>
 
         </figure>
+        <h2>Encoding</h2>
+        <p>This is a map of reports of human or animal waste in San Francisco, it is updated everytime the dataset is updated. I took every report and colored it by the month it came in. Every dot represents a report with its latitude and longitude postion. Every duplicate report has been filtered out before plotting.</p>
+
+        <h2>Interactivity</h2>
+        <p>To interact with this visualization you can hover over the police districts or the dots and get additional information about each report. The dots get brushed out by month when hovered. You can also change the scope of time by using the button above. When trying to load the whole year give a fews seconds for it to load.</p>
+
+        <h2>Findings</h2>
+        <p>I found that most reports are concentrated in the north east part of the city. Although most cases are in that area there are three police districts that split the area pretty evenly, but definently not proportionate with the rest of the city.</p>
       </br>
 
         <svg id="heatmap"></svg>
+
+        <h2>Encoding</h2>
+        <p>This is a heatmap of reports of human or animal waste in San Francisco, it is updated everytime the dataset is updated. I took every report and mapped them to a police district and a month. The color is encoded by the number of reports that occured within that month/district pair.</p>
+
+        <h2>Interactivity</h2>
+        <p>To interact with this visualization you can hover over each cell to reveal more information about that pair.</p>
+
+        <h2>Findings</h2>
+        <p>I found that most reports are concentrated in 3 police districts. With big variation between districts ex. high of 700+ and low of 30 reports monthly.</p>
 
           <script src="https://d3js.org/d3.v5.min.js"></script>
           <script src="map.js"></script>
